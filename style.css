@@ -1,0 +1,54 @@
+:root {
+    --header-color: #66fcf1;
+    --box-color: #45a29e;
+    --font-color: azure;
+}
+body {
+    background-color: #1f2833;
+}
+
+header {
+    display: block;
+    text-align: center;
+}
+
+header h1 {
+    color: var(--header-color);
+    text-align: center;
+}
+
+header h3 {
+    color: var(--font-color);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+
+.card {
+    margin: 15px;
+    border:10px;
+    border-style: double;
+    border-color: var(--font-color);
+    display: inline;
+    float: left;
+    width: 30%;
+    height: 300px;
+    /*justify-content: space-between;*/
+}
+
+section h3 {
+    color: var(--header-color);
+}
+
+.description{
+  color: var(--header-color);
+}
+
+.code {
+    color: var(--font-color);
+    background-color: var(--box-color);
+}
